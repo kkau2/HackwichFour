@@ -10,7 +10,9 @@ import UIKit
 
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
-   var myFriends = ["Sara", "Nicole", "Grant"]
+    @IBOutlet var tableView: UITableView!
+    
+    var myFriends = ["Sara", "Nicole", "Grant"]
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return myFriends.count
