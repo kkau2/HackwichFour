@@ -12,6 +12,8 @@
 		7F4865C72228705700687BB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F4865C52228705700687BB9 /* Main.storyboard */; };
 		7F4865C92228705700687BB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F4865C82228705700687BB9 /* Assets.xcassets */; };
 		7F4865CC2228705700687BB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F4865CA2228705700687BB9 /* LaunchScreen.storyboard */; };
+		7FF565AE224D5D88007DDE64 /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7FF565AD224D5D88007DDE64 /* Property List.plist */; };
+		7FF565B0224D62E7007DDE64 /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF565AF224D62E7007DDE64 /* detailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		7F4865C82228705700687BB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F4865CB2228705700687BB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F4865CD2228705700687BB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FF565AD224D5D88007DDE64 /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
+		7FF565AF224D62E7007DDE64 /* detailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				7F4865C12228705700687BB9 /* AppDelegate.swift */,
 				7F4865C32228705700687BB9 /* ViewController.swift */,
 				7F4865C52228705700687BB9 /* Main.storyboard */,
+				7FF565AF224D62E7007DDE64 /* detailViewController.swift */,
+				7FF565AD224D5D88007DDE64 /* Property List.plist */,
 				7F4865C82228705700687BB9 /* Assets.xcassets */,
 				7F4865CA2228705700687BB9 /* LaunchScreen.storyboard */,
 				7F4865CD2228705700687BB9 /* Info.plist */,
@@ -125,6 +131,7 @@
 			files = (
 				7F4865CC2228705700687BB9 /* LaunchScreen.storyboard in Resources */,
 				7F4865C92228705700687BB9 /* Assets.xcassets in Resources */,
+				7FF565AE224D5D88007DDE64 /* Property List.plist in Resources */,
 				7F4865C72228705700687BB9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +145,7 @@
 			files = (
 				7F4865C42228705700687BB9 /* ViewController.swift in Sources */,
 				7F4865C22228705700687BB9 /* AppDelegate.swift in Sources */,
+				7FF565B0224D62E7007DDE64 /* detailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
